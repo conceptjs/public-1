@@ -1,0 +1,56 @@
+{
+  "uri" : "local://hR_JQQNUGE9FHabGf8RWCF/",
+  "name" : "taozhan3-testGithub Mgt Concept",
+  "category" : "",
+  "parent" : "local://ONtaH3blol8ZMaewhJGqG1/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/taozhan3/testGithub/"
+    }
+  }, {
+    "name" : "_repo_gitHubUsername",
+    "expr" : {
+      "str" : "taozhan2014"
+    }
+  }, {
+    "name" : "_repo_gitHubRepo",
+    "expr" : {
+      "str" : "testGithub"
+    }
+  }, {
+    "name" : "_repo_gitHubBranch",
+    "expr" : {
+      "str" : "master"
+    }
+  }, {
+    "name" : "_repo_lastSyncAction",
+    "expr" : {
+      "str" : "push"
+    }
+  }, {
+    "name" : "_repo_lastSyncTime",
+    "expr" : {
+      "str" : "2015-02-11T21:36:56.495Z",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri",
+        "gitHubUsername" : "_repo_gitHubUsername",
+        "gitHubRepo" : "_repo_gitHubRepo",
+        "gitHubBranch" : "_repo_gitHubBranch",
+        "lastSyncAction" : "_repo_lastSyncAction",
+        "lastSyncTime" : "_repo_lastSyncTime"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ]
+}

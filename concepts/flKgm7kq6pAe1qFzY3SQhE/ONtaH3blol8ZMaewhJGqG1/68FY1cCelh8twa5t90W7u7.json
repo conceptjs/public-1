@@ -1,0 +1,28 @@
+{
+  "uri" : "local://68FY1cCelh8twa5t90W7u7/",
+  "name" : "taozhan3-private",
+  "category" : "",
+  "parent" : "local://ONtaH3blol8ZMaewhJGqG1/",
+  "pname" : "Repository Management (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/taozhan3/private/"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "conceptName" : "Repo Management Lambda",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}
