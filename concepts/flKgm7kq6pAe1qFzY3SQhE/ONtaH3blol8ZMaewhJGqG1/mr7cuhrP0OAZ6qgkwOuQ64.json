@@ -27,6 +27,16 @@
       "str" : "taozhan2014"
     }
   }, {
+    "name" : "_repo_lastSyncAction",
+    "expr" : {
+      "str" : "push"
+    }
+  }, {
+    "name" : "_repo_lastSyncTime",
+    "expr" : {
+      "str" : "2015-02-13T20:03:56.824Z"
+    }
+  }, {
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
@@ -35,7 +45,9 @@
         "repoUri" : "_repo_repoUri",
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
-        "gitHubUsername" : "_repo_gitHubUsername"
+        "gitHubUsername" : "_repo_gitHubUsername",
+        "lastSyncAction" : "_repo_lastSyncAction",
+        "lastSyncTime" : "_repo_lastSyncTime"
       }
     }
   } ],
